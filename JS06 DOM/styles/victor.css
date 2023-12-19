@@ -1,0 +1,43 @@
+a {
+    font-family: sans-serif;
+    color: brown;
+    font-size: larger;
+    border: dotted crimson 5px;
+    }
+body {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+#card-btn {
+    background-color: aqua;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 8px;
+    font-size: large;
+    margin: 7px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#name {
+    height: 25px;
+    padding: 5px;
+}
+#btn-main {
+    padding: 12px;
+    width: 200px;
+    border-radius: 5px;
+}
+.profile {
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: solid coral 1px;
+    text-align: center;
+    padding: 20px;
+    }

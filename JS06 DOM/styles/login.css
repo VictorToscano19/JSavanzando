@@ -1,0 +1,35 @@
+body {
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    border: 0px solid transparent;
+    padding: 10px;
+    background-color: grey;
+}
+button {
+    padding:  8px 60px;
+    margin: 10px 0px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+input {
+    padding: 6px 16px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:lightsteelblue;
+}
